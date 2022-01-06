@@ -39,8 +39,13 @@ textarea {
 svg {
 	color: gray;
 }
-#x-icon {
+#check-icon, #x-icon {
 	position: absolute;
-	right: 17%;
 	top: 4%;
+}
+#check-icon {
+	right:5%
+}
+#x-icon {
+	right: 17%;
 }
