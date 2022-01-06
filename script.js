@@ -46,16 +46,16 @@ function createNote() {
 }
 
 function margin() {
-	let random_margin = ["-5px", "1px", "5px", "10px", "15px", "20px"];
+	let random_margin = ["-5px", "-10px", "5px", "10px", "15px", "20px"];
 
 	return random_margin[Math.floor(Math.random() * random_margin.length)];
 }
 function rotate() {
-	let random_rotate = ["rotate(3deg)", "rotate(1deg)","rotate(-1deg)","rotate(-3deg)","rotate(-5deg)","rotate(-10deg)",];
+	let random_rotate = ["rotate(3deg)", "rotate(5deg)","rotate(10deg)","rotate(-3deg)","rotate(-5deg)","rotate(-10deg)",];
 	return random_rotate[Math.floor(Math.random() * random_rotate.length)];
 }
 function color() {
-	let random_color =["red", "green", "blue", "yellow", "orange", "violet"];
+	let random_color =["linear-gradient(315deg, #7ee8fa 30%, #80ff72 54%)", "linear-gradient(315deg, #90d5ec 0%, #fc575e 74%)", "linear-gradient(315deg, #e288f9 0%, #ffc988 74%)", "linear-gradient(315deg, #eec0c6 30%, #7ee8fa 54%)", "linear-gradient(315deg, #f9484a 0%, #fbd72b 74%)", "linear-gradient(315deg, #9b4dca 0%, #f4f5f6 74%)"];
 
 	if(i > random_color.length - 1){
 		i = 0;

@@ -18,8 +18,8 @@ body {
 	display: flex;
 	justify-content: flex-start;
 	flex-wrap: wrap;
-	margin-top: 20px;
-	margin-left: 5%;
+	margin-top: 4%;
+	margin-left: 7%;
 
 }
 .container3 {
@@ -32,9 +32,9 @@ textarea {
 	box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
 	outline: none;
 	border: none;
-	width: 275px;
-	height: 275px;
-	padding: 40px 25px 25px 25px;
+	width: 300px;
+	height: 300px;
+	padding: 60px 25px 25px 25px;
 }
 svg {
 	color: gray;
@@ -44,8 +44,17 @@ svg {
 	top: 4%;
 }
 #check-icon {
-	right:5%
+	right:20%
 }
 #x-icon {
-	right: 17%;
+	right: 5%;
 }
+/* .color {
+	background-color: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+	background-color: linear-gradient(315deg, #90d5ec 0%, #fc575e 74%);
+	background-color: linear-gradient(315deg, #e288f9 0%, #ffc988 74%); 
+	background-color: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%); 
+	background-color: linear-gradient(315deg, #f9484a 0%, #fbd72b 74%); 
+	background-color: linear-gradient(315deg, #9b4dca 0%, #f4f5f6 74%);
+} */
+	
