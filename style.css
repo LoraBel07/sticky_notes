@@ -11,6 +11,10 @@ body {
 	width: 95%;
 	margin: auto;
 }
+.btn {
+	margin-left: 45%;
+	margin-top: 4%;
+}
 .container1 {
 	margin-left: 5%;
 }

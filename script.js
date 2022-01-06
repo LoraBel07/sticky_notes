@@ -46,7 +46,7 @@ function createNote() {
 }
 
 function margin() {
-	let random_margin = ["-5px", "-10px", "5px", "10px", "15px", "20px"];
+	let random_margin = ["-10px", "-15px", "7px", "10px", "15px", "18px"];
 
 	return random_margin[Math.floor(Math.random() * random_margin.length)];
 }
