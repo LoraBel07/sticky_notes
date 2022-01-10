@@ -22,13 +22,14 @@ function createNote() {
 	let noteText = document.getElementById("note-text").value;
 	let node0 = document.createElement("div");
 	let node1 = document.createElement("h1");
+	// let image = document.createElementById("pin");
 
 	node1.innerHTML = noteText;
 	node1.setAttribute("style", "width:250px; height:250px; font-size: 27px; padding: 25px; margin-top: 10px; overflow: hidden; box-shadow:0px 10px 24px 0px rgba(0,0,0,0.75)");
 	
 	node1.style.margin = margin();
 	node1.style.transform = rotate();
-	node1.style.background = color	();	
+	node1.style.background = color();	
 	
 	node0.appendChild(node1);
 	container2.insertAdjacentElement("beforeend", node0);
